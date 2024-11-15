@@ -1,0 +1,12 @@
+[package]
+name = "AGI_Hack"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+dotenv = "0.15.0"
+notify = "7.0.0"
+reqwest = "0.12.9"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0.132"
+tokio = { version = "1", features = ["full"] }
